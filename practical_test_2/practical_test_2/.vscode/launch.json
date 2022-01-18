@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountPoor",
+            "request": "launch",
+            "mainClass": "app.CountPoor",
+            "projectName": "practical_test_2"
+        }
+    ]
+}

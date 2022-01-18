@@ -1,0 +1,101 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package starwars;
+
+import javax.swing.*;
+import java.awt.event.*;
+public class StarWars extends JFrame implements ActionListener {
+ private final int SWIDTH = 900;
+ private final int SHEIGHT = 700;
+ private JButton btnStart, btnPause, btnExit, btnLeft, btnRight, btnUp, btnDown;
+ private GameCanvas gameC = new GameCanvas();
+ public StarWars() {
+ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ setTitle("StarWars v0.1");
+ setSize(SWIDTH, SHEIGHT);
+ setLayout(null);
+ }
+ public void init() {
+ gameC.setBounds(25, 25, 600, 630);
+ add(gameC);
+ btnLeft = new JButton("LEFT");
+ btnLeft.setBounds(650, 400, 100, 25);
+ btnLeft.addActionListener(this);
+ add(btnLeft);
+
+ btnRight = new JButton("RIGHT");
+ btnRight.setBounds(750, 400, 100, 25);
+ btnRight.addActionListener(this);
+ add(btnRight);
+ 
+ btnUp = new JButton("UP");
+ btnUp.setBounds(700, 375, 100, 25);
+ btnUp.addActionListener(this);
+ add(btnUp);
+ 
+ btnDown = new JButton("DOWN");
+ btnDown.setBounds(700, 425, 100, 25);
+ btnDown.addActionListener(this);
+ add(btnDown);
+
+ btnStart = new JButton("START");
+ btnStart.setBounds(650, 500, 100, 25);
+ btnStart.addActionListener(this);
+ add(btnStart);
+ 
+ btnPause = new JButton("Pause");
+ btnPause.setBounds(750, 500, 100, 25);
+ btnPause.addActionListener(this);
+ add(btnPause);
+
+ btnExit = new JButton("EXIT");
+ btnExit.setBounds(650, 625, 100, 25);
+ btnExit.addActionListener(this);
+ add(btnExit);
+
+ setVisible(true);
+ }
+
+ public void actionPerformed(ActionEvent e) {
+    if (e.getSource() == btnExit) {
+        System.exit(0);
+    }
+    else if (e.getSource() == btnStart) {
+        if (gameC.getStatus() == 0){
+            gameC.startTimer();
+            btnStart.setText("Restart");
+        }
+        if ( gameC.getStatus() == 2){
+            
+            gameC.setStatus(0);
+            gameC.reset();
+            btnStart.setText("Start");
+        }
+        
+    }
+    else if (e.getSource() == btnPause){
+        gameC.pause();
+    }
+    else if (e.getSource() == btnLeft) {
+        gameC.moveLeft();
+    }
+    else if (e.getSource() == btnRight) {
+        gameC.moveRight();
+    }
+    else if (e.getSource() == btnUp) {
+        gameC.moveUp();
+    }
+    else if (e.getSource() == btnDown) {
+        gameC.moveDown();
+    }
+ }
+ public static void main(String args[]) {
+ StarWars sw = new StarWars();
+ sw.init();
+ }
+}
+    
+

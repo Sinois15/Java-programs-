@@ -1,0 +1,26 @@
+25
+1:C:What is the approximate population of Solomon Islands as of 2018?:570 000:342 000:652 000:201 000
+2:B:What is the name of Slovenia's capitol?:ljubjana.jpg:Bratislava:Ljubljana:Honiara:Kabul
+1:A:What is the capital of Solomon Islands?:Honiara:New York:Port louis:Solomon
+1:C:Solomon Islands consists of how many major islands?:500:20:6:1
+3:C:Which of the below is NOT a traditional food of Slovenia?:zganci.jpg:kranjska.jpg:kuba.jpg:potica.jpg
+1:D:Solomon islands lie east of...?:Australia:South Africa:Japan:Papua New Guinea
+1:B:In what year did Solomon Islands get its independence?:1977:1978:1976:1979
+3:A:Which is the highest mountain in Slovenia...:mttriglav.jpg:grossglokner.jpg:mtkilimanjaro.jpg:aconcagua.jpg
+3:C:The largest lake in Slovenia is..:lake nasser.jpg:yalpuh.jpg:lake cerknica.jpg:lake baikal.jpg
+1:B:Where is Turkmenistan located?:Western Asia:Central Asia:North Asia:East Asia
+2:A:What landmark of Solvenia is this?:dragon bridge.jpg:Dragon Bridge:Atomium:Mir Castle COmplex:Giza Necropolis
+1:B:What is Turkmenistan’s population record?:5 million:6 million:7 million:8 million
+1:C:Turkmenistan possesses the worlds fourth largest…:Reserves of natural water:Reserves of natural oil:Reserves of natural gas:Reserves of natural soil
+3:A:Which is Turkmenistan’s flag?:flag1.png:flag2.png:flag3.png:flag4.png
+1:C:Turkmenistan is one of the least….:Polluted country:Politically corrupt country:Visited country:Warm climate country
+1:B:What is South Sudan’s capital?:Jipa:Juba:Jaba:Jula
+1:A:South Sudan contains…:Vast oil reserves:Vast soil reserves:Vast water reserves:Vast natural gas reserves
+2:C:What colors does the South Sudan flag consist of?:SouthSudanFlag.jpg:Blue, Yellow, Black, White, Red, Green:Yellow, Orange, Red, Black, White:White, Blue, Black, Purple:Blue, Black, White, Red:Yellow, Red, White, Orange, Green
+1:B:The official language of South Sudan is…:French:English:Sudanese:Lingua
+1:B:South Sudan is the world’s  ____ country.:Oldest:Youngest:Poorest:Smallest
+1:C:The main currency of Slovakia is the ....:US Dollar:British Pounds:Euro:Swiss Frank
+1:A:Slovakia has the world’s highest number of …: Castles:Cows:Women:Men
+3:A:Travel by ___ is free.:train.jpg:bus.png:taxi.png:plane.jpg
+1:A:Slovakia has the lowest …:birth rate in the world:population count:animal count:leveled plane:number of companies
+1:D:What is the capital of Slovakia?:Bratis:Ladia:Czechal:Bratislava
